@@ -22,7 +22,7 @@
                 it(@"return MM/dd(EEE)", ^{
                     NSString *format = [NSDateFormatter dateFormatFromTemplate:@"EdMMM" options:0 locale:[NSLocale currentLocale]];
                     [[format should] equal:@"EEE, MMM d"];
-                    // en_US => “Wed, Feb 20”.
+                    // en_US => Thu, Jun 6
                 });
             });
             context(@"When lang is japanese", ^{
@@ -39,5 +39,6 @@
         });
     });
 }
+
 
 @end
