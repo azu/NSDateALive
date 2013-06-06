@@ -8,7 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0F91780F0D694BD8A531041A /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53F159FAA99946B79222FABA /* libPods-Tests.a */; settings = {}; };
+		17B5C298E02C6F0F3FF4292A /* NSDate+AZDateBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5CEC3E3A1D28C9FEA05E0 /* NSDate+AZDateBuilder.m */; };
 		17B5C9AE49D00BC10DC3EB0A /* dateFormatFromTemplateSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C774217F6CECB6612217 /* dateFormatFromTemplateSpec.m */; };
+		17B5CB0CD530C8A6499DE1B1 /* JapaneseCalendarSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C24887A0F489EAA94D53 /* JapaneseCalendarSpec.m */; };
 		73054C01176078FC0078DD8B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73054C00176078FC0078DD8B /* UIKit.framework */; };
 		73054C03176078FC0078DD8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73054C02176078FC0078DD8B /* Foundation.framework */; };
 		73054C05176078FC0078DD8B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73054C04176078FC0078DD8B /* CoreGraphics.framework */; };
@@ -35,7 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17B5C24887A0F489EAA94D53 /* JapaneseCalendarSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JapaneseCalendarSpec.m; sourceTree = "<group>"; };
 		17B5C774217F6CECB6612217 /* dateFormatFromTemplateSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dateFormatFromTemplateSpec.m; sourceTree = "<group>"; };
+		17B5CEC3E3A1D28C9FEA05E0 /* NSDate+AZDateBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+AZDateBuilder.m"; sourceTree = "<group>"; };
+		17B5CFB415C700A600E9C17E /* NSDate+AZDateBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+AZDateBuilder.h"; sourceTree = "<group>"; };
 		53F159FAA99946B79222FABA /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Tests.a"; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73054BFD176078FC0078DD8B /* NSDateALive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSDateALive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73054C00176078FC0078DD8B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -82,6 +87,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17B5C2371B8BD4223409634E /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				17B5CFB415C700A600E9C17E /* NSDate+AZDateBuilder.h */,
+				17B5CEC3E3A1D28C9FEA05E0 /* NSDate+AZDateBuilder.m */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
 		73054BF4176078FC0078DD8B = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +157,8 @@
 			children = (
 				73054C25176078FC0078DD8B /* Supporting Files */,
 				17B5C774217F6CECB6612217 /* dateFormatFromTemplateSpec.m */,
+				17B5C24887A0F489EAA94D53 /* JapaneseCalendarSpec.m */,
+				17B5C2371B8BD4223409634E /* Lib */,
 			);
 			path = NSDateALiveTests;
 			sourceTree = "<group>";
@@ -309,6 +325,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				17B5C9AE49D00BC10DC3EB0A /* dateFormatFromTemplateSpec.m in Sources */,
+				17B5CB0CD530C8A6499DE1B1 /* JapaneseCalendarSpec.m in Sources */,
+				17B5C298E02C6F0F3FF4292A /* NSDate+AZDateBuilder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
