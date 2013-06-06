@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0F91780F0D694BD8A531041A /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53F159FAA99946B79222FABA /* libPods-Tests.a */; settings = {}; };
+		0F91780F0D694BD8A531041A /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53F159FAA99946B79222FABA /* libPods-Tests.a */; };
 		17B5C0D86502A73E8E69AEC3 /* NSDateComponentsSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5CF6B980E90B68FE636A5 /* NSDateComponentsSpec.m */; };
+		17B5C0FD7B1BBBA04C916085 /* NSDate+FirstLast.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C5C7FC987D92CB585A02 /* NSDate+FirstLast.m */; };
 		17B5C298E02C6F0F3FF4292A /* NSDate+AZDateBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5CEC3E3A1D28C9FEA05E0 /* NSDate+AZDateBuilder.m */; };
+		17B5C7741370C61B0BE7935A /* NSCalendarSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5CB5551DE283B0D6887F9 /* NSCalendarSpec.m */; };
 		17B5C9AE49D00BC10DC3EB0A /* dateFormatFromTemplateSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C774217F6CECB6612217 /* dateFormatFromTemplateSpec.m */; };
 		17B5CA7A279445252DE796BE /* NSDate+SinceADate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C0DA75CD11830DD17D5E /* NSDate+SinceADate.m */; };
 		17B5CB0CD530C8A6499DE1B1 /* JapaneseCalendarSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C24887A0F489EAA94D53 /* JapaneseCalendarSpec.m */; };
@@ -39,15 +41,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17B5C06A2732EE7DC651F4E6 /* NSDate+FirstLast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+FirstLast.h"; sourceTree = "<group>"; };
 		17B5C0DA75CD11830DD17D5E /* NSDate+SinceADate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+SinceADate.m"; sourceTree = "<group>"; };
 		17B5C0E7CBE2F8D09508C8B0 /* NSDate+SinceADate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+SinceADate.h"; sourceTree = "<group>"; };
 		17B5C24887A0F489EAA94D53 /* JapaneseCalendarSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JapaneseCalendarSpec.m; sourceTree = "<group>"; };
+		17B5C5C7FC987D92CB585A02 /* NSDate+FirstLast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+FirstLast.m"; sourceTree = "<group>"; };
 		17B5C774217F6CECB6612217 /* dateFormatFromTemplateSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dateFormatFromTemplateSpec.m; sourceTree = "<group>"; };
+		17B5CB5551DE283B0D6887F9 /* NSCalendarSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSCalendarSpec.m; sourceTree = "<group>"; };
 		17B5CE4B7A20303478EA50CC /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = file.md; path = readme.md; sourceTree = "<group>"; };
 		17B5CEC3E3A1D28C9FEA05E0 /* NSDate+AZDateBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+AZDateBuilder.m"; sourceTree = "<group>"; };
 		17B5CF6B980E90B68FE636A5 /* NSDateComponentsSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDateComponentsSpec.m; sourceTree = "<group>"; };
 		17B5CFB415C700A600E9C17E /* NSDate+AZDateBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+AZDateBuilder.h"; sourceTree = "<group>"; };
-		53F159FAA99946B79222FABA /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Tests.a"; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53F159FAA99946B79222FABA /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73054BFD176078FC0078DD8B /* NSDateALive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSDateALive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73054C00176078FC0078DD8B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		73054C02176078FC0078DD8B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -61,7 +66,7 @@
 		73054C12176078FC0078DD8B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		73054C14176078FC0078DD8B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		73054C16176078FC0078DD8B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		73054C1D176078FC0078DD8B /* NSDateALiveTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSDateALiveTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		73054C1D176078FC0078DD8B /* NSDateALiveTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = NSDateALiveTests.octest; path = Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		73054C1E176078FC0078DD8B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		73054C26176078FC0078DD8B /* NSDateALiveTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSDateALiveTests-Info.plist"; sourceTree = "<group>"; };
 		73054C28176078FC0078DD8B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -100,6 +105,8 @@
 				17B5CEC3E3A1D28C9FEA05E0 /* NSDate+AZDateBuilder.m */,
 				17B5C0DA75CD11830DD17D5E /* NSDate+SinceADate.m */,
 				17B5C0E7CBE2F8D09508C8B0 /* NSDate+SinceADate.h */,
+				17B5C5C7FC987D92CB585A02 /* NSDate+FirstLast.m */,
+				17B5C06A2732EE7DC651F4E6 /* NSDate+FirstLast.h */,
 			);
 			path = Lib;
 			sourceTree = "<group>";
@@ -169,6 +176,7 @@
 				17B5C24887A0F489EAA94D53 /* JapaneseCalendarSpec.m */,
 				17B5C2371B8BD4223409634E /* Lib */,
 				17B5CF6B980E90B68FE636A5 /* NSDateComponentsSpec.m */,
+				17B5CB5551DE283B0D6887F9 /* NSCalendarSpec.m */,
 			);
 			path = NSDateALiveTests;
 			sourceTree = "<group>";
@@ -242,8 +250,6 @@
 			mainGroup = 73054BF4176078FC0078DD8B;
 			productRefGroup = 73054BFE176078FC0078DD8B /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-			);
 			projectRoot = "";
 			targets = (
 				73054BFC176078FC0078DD8B /* NSDateALive */,
@@ -288,7 +294,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Pods-Tests-resources.sh\"\n";
-			showEnvVarsInLog = 1;
 		};
 		73054C1B176078FC0078DD8B /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -316,7 +321,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 1;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -339,6 +343,8 @@
 				17B5C298E02C6F0F3FF4292A /* NSDate+AZDateBuilder.m in Sources */,
 				17B5C0D86502A73E8E69AEC3 /* NSDateComponentsSpec.m in Sources */,
 				17B5CA7A279445252DE796BE /* NSDate+SinceADate.m in Sources */,
+				17B5C7741370C61B0BE7935A /* NSCalendarSpec.m in Sources */,
+				17B5C0FD7B1BBBA04C916085 /* NSDate+FirstLast.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +440,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NSDateALive/NSDateALive-Prefix.pch";
 				INFOPLIST_FILE = "NSDateALive/NSDateALive-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -445,6 +452,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NSDateALive/NSDateALive-Prefix.pch";
 				INFOPLIST_FILE = "NSDateALive/NSDateALive-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
