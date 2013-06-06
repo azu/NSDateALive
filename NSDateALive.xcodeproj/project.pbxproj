@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F91780F0D694BD8A531041A /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53F159FAA99946B79222FABA /* libPods-Tests.a */; settings = {}; };
+		17B5C9AE49D00BC10DC3EB0A /* dateFormatFromTemplateSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C774217F6CECB6612217 /* dateFormatFromTemplateSpec.m */; };
 		73054C01176078FC0078DD8B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73054C00176078FC0078DD8B /* UIKit.framework */; };
 		73054C03176078FC0078DD8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73054C02176078FC0078DD8B /* Foundation.framework */; };
 		73054C05176078FC0078DD8B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73054C04176078FC0078DD8B /* CoreGraphics.framework */; };
@@ -20,7 +22,6 @@
 		73054C20176078FC0078DD8B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73054C00176078FC0078DD8B /* UIKit.framework */; };
 		73054C21176078FC0078DD8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73054C02176078FC0078DD8B /* Foundation.framework */; };
 		73054C29176078FC0078DD8B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 73054C27176078FC0078DD8B /* InfoPlist.strings */; };
-		73054C2C176078FC0078DD8B /* NSDateALiveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73054C2B176078FC0078DD8B /* NSDateALiveTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17B5C774217F6CECB6612217 /* dateFormatFromTemplateSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dateFormatFromTemplateSpec.m; sourceTree = "<group>"; };
+		53F159FAA99946B79222FABA /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Tests.a"; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73054BFD176078FC0078DD8B /* NSDateALive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSDateALive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73054C00176078FC0078DD8B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		73054C02176078FC0078DD8B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -51,8 +54,7 @@
 		73054C1E176078FC0078DD8B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		73054C26176078FC0078DD8B /* NSDateALiveTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSDateALiveTests-Info.plist"; sourceTree = "<group>"; };
 		73054C28176078FC0078DD8B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		73054C2A176078FC0078DD8B /* NSDateALiveTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSDateALiveTests.h; sourceTree = "<group>"; };
-		73054C2B176078FC0078DD8B /* NSDateALiveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSDateALiveTests.m; sourceTree = "<group>"; };
+		E8A570743A32461FB91C3F0A /* Pods-Tests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.xcconfig"; path = "Pods/Pods-Tests.xcconfig"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				73054C1F176078FC0078DD8B /* SenTestingKit.framework in Frameworks */,
 				73054C20176078FC0078DD8B /* UIKit.framework in Frameworks */,
 				73054C21176078FC0078DD8B /* Foundation.framework in Frameworks */,
+				0F91780F0D694BD8A531041A /* libPods-Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +89,7 @@
 				73054C24176078FC0078DD8B /* NSDateALiveTests */,
 				73054BFF176078FC0078DD8B /* Frameworks */,
 				73054BFE176078FC0078DD8B /* Products */,
+				E8A570743A32461FB91C3F0A /* Pods-Tests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +109,7 @@
 				73054C02176078FC0078DD8B /* Foundation.framework */,
 				73054C04176078FC0078DD8B /* CoreGraphics.framework */,
 				73054C1E176078FC0078DD8B /* SenTestingKit.framework */,
+				53F159FAA99946B79222FABA /* libPods-Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -136,9 +141,8 @@
 		73054C24176078FC0078DD8B /* NSDateALiveTests */ = {
 			isa = PBXGroup;
 			children = (
-				73054C2A176078FC0078DD8B /* NSDateALiveTests.h */,
-				73054C2B176078FC0078DD8B /* NSDateALiveTests.m */,
 				73054C25176078FC0078DD8B /* Supporting Files */,
+				17B5C774217F6CECB6612217 /* dateFormatFromTemplateSpec.m */,
 			);
 			path = NSDateALiveTests;
 			sourceTree = "<group>";
@@ -172,21 +176,23 @@
 			productReference = 73054BFD176078FC0078DD8B /* NSDateALive.app */;
 			productType = "com.apple.product-type.application";
 		};
-		73054C1C176078FC0078DD8B /* NSDateALiveTests */ = {
+		73054C1C176078FC0078DD8B /* Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 73054C32176078FC0078DD8B /* Build configuration list for PBXNativeTarget "NSDateALiveTests" */;
+			buildConfigurationList = 73054C32176078FC0078DD8B /* Build configuration list for PBXNativeTarget "Tests" */;
 			buildPhases = (
+				F97EAC9F5CFF4135ACCA3ED8 /* Check Pods Manifest.lock */,
 				73054C18176078FC0078DD8B /* Sources */,
 				73054C19176078FC0078DD8B /* Frameworks */,
 				73054C1A176078FC0078DD8B /* Resources */,
 				73054C1B176078FC0078DD8B /* ShellScript */,
+				48B0F0FF8334491FB37BC688 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				73054C23176078FC0078DD8B /* PBXTargetDependency */,
 			);
-			name = NSDateALiveTests;
+			name = Tests;
 			productName = NSDateALiveTests;
 			productReference = 73054C1D176078FC0078DD8B /* NSDateALiveTests.octest */;
 			productType = "com.apple.product-type.bundle";
@@ -210,10 +216,12 @@
 			mainGroup = 73054BF4176078FC0078DD8B;
 			productRefGroup = 73054BFE176078FC0078DD8B /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+			);
 			projectRoot = "";
 			targets = (
 				73054BFC176078FC0078DD8B /* NSDateALive */,
-				73054C1C176078FC0078DD8B /* NSDateALiveTests */,
+				73054C1C176078FC0078DD8B /* Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -241,6 +249,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		48B0F0FF8334491FB37BC688 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-Tests-resources.sh\"\n";
+			showEnvVarsInLog = 1;
+		};
 		73054C1B176078FC0078DD8B /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -253,6 +276,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		F97EAC9F5CFF4135ACCA3ED8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 1;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -270,7 +308,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73054C2C176078FC0078DD8B /* NSDateALiveTests.m in Sources */,
+				17B5C9AE49D00BC10DC3EB0A /* dateFormatFromTemplateSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,6 +422,7 @@
 		};
 		73054C33176078FC0078DD8B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8A570743A32461FB91C3F0A /* Pods-Tests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NSDateALive.app/NSDateALive";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -401,6 +440,7 @@
 		};
 		73054C34176078FC0078DD8B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8A570743A32461FB91C3F0A /* Pods-Tests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NSDateALive.app/NSDateALive";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -435,14 +475,16 @@
 				73054C31176078FC0078DD8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		73054C32176078FC0078DD8B /* Build configuration list for PBXNativeTarget "NSDateALiveTests" */ = {
+		73054C32176078FC0078DD8B /* Build configuration list for PBXNativeTarget "Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				73054C33176078FC0078DD8B /* Debug */,
 				73054C34176078FC0078DD8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
