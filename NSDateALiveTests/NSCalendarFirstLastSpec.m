@@ -7,11 +7,11 @@
 #import "NSDate+AZDateBuilder.h"
 #import "NSDate+FirstLast.h"
 
-@interface NSCalendarSpec : KWSpec
+@interface NSCalendarFirstLastSpec : KWSpec
 
 @end
 
-@implementation NSCalendarSpec
+@implementation NSCalendarFirstLastSpec
 
 + (void)buildExampleGroups {
     describe(@"#firstDayOfMonth", ^{

@@ -11,7 +11,7 @@
 		17B5C0D86502A73E8E69AEC3 /* NSDateComponentsSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5CF6B980E90B68FE636A5 /* NSDateComponentsSpec.m */; };
 		17B5C0FD7B1BBBA04C916085 /* NSDate+FirstLast.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C5C7FC987D92CB585A02 /* NSDate+FirstLast.m */; };
 		17B5C298E02C6F0F3FF4292A /* NSDate+AZDateBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5CEC3E3A1D28C9FEA05E0 /* NSDate+AZDateBuilder.m */; };
-		17B5C7741370C61B0BE7935A /* NSCalendarSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5CB5551DE283B0D6887F9 /* NSCalendarSpec.m */; };
+		17B5C7741370C61B0BE7935A /* NSCalendarFirstLastSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5CB5551DE283B0D6887F9 /* NSCalendarFirstLastSpec.m */; };
 		17B5C9AE49D00BC10DC3EB0A /* dateFormatFromTemplateSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C774217F6CECB6612217 /* dateFormatFromTemplateSpec.m */; };
 		17B5CA7A279445252DE796BE /* NSDate+SinceADate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C0DA75CD11830DD17D5E /* NSDate+SinceADate.m */; };
 		17B5CB0CD530C8A6499DE1B1 /* JapaneseCalendarSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C24887A0F489EAA94D53 /* JapaneseCalendarSpec.m */; };
@@ -47,7 +47,7 @@
 		17B5C24887A0F489EAA94D53 /* JapaneseCalendarSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JapaneseCalendarSpec.m; sourceTree = "<group>"; };
 		17B5C5C7FC987D92CB585A02 /* NSDate+FirstLast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+FirstLast.m"; sourceTree = "<group>"; };
 		17B5C774217F6CECB6612217 /* dateFormatFromTemplateSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dateFormatFromTemplateSpec.m; sourceTree = "<group>"; };
-		17B5CB5551DE283B0D6887F9 /* NSCalendarSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSCalendarSpec.m; sourceTree = "<group>"; };
+		17B5CB5551DE283B0D6887F9 /* NSCalendarFirstLastSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSCalendarFirstLastSpec.m; sourceTree = "<group>"; };
 		17B5CE4B7A20303478EA50CC /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = file.md; path = readme.md; sourceTree = "<group>"; };
 		17B5CEC3E3A1D28C9FEA05E0 /* NSDate+AZDateBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+AZDateBuilder.m"; sourceTree = "<group>"; };
 		17B5CF6B980E90B68FE636A5 /* NSDateComponentsSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDateComponentsSpec.m; sourceTree = "<group>"; };
@@ -176,7 +176,7 @@
 				17B5C24887A0F489EAA94D53 /* JapaneseCalendarSpec.m */,
 				17B5C2371B8BD4223409634E /* Lib */,
 				17B5CF6B980E90B68FE636A5 /* NSDateComponentsSpec.m */,
-				17B5CB5551DE283B0D6887F9 /* NSCalendarSpec.m */,
+				17B5CB5551DE283B0D6887F9 /* NSCalendarFirstLastSpec.m */,
 			);
 			path = NSDateALiveTests;
 			sourceTree = "<group>";
@@ -343,7 +343,7 @@
 				17B5C298E02C6F0F3FF4292A /* NSDate+AZDateBuilder.m in Sources */,
 				17B5C0D86502A73E8E69AEC3 /* NSDateComponentsSpec.m in Sources */,
 				17B5CA7A279445252DE796BE /* NSDate+SinceADate.m in Sources */,
-				17B5C7741370C61B0BE7935A /* NSCalendarSpec.m in Sources */,
+				17B5C7741370C61B0BE7935A /* NSCalendarFirstLastSpec.m in Sources */,
 				17B5C0FD7B1BBBA04C916085 /* NSDate+FirstLast.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
