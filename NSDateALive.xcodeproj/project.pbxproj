@@ -43,6 +43,7 @@
 		17B5C0E7CBE2F8D09508C8B0 /* NSDate+SinceADate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+SinceADate.h"; sourceTree = "<group>"; };
 		17B5C24887A0F489EAA94D53 /* JapaneseCalendarSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JapaneseCalendarSpec.m; sourceTree = "<group>"; };
 		17B5C774217F6CECB6612217 /* dateFormatFromTemplateSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dateFormatFromTemplateSpec.m; sourceTree = "<group>"; };
+		17B5CE4B7A20303478EA50CC /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = file.md; path = readme.md; sourceTree = "<group>"; };
 		17B5CEC3E3A1D28C9FEA05E0 /* NSDate+AZDateBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+AZDateBuilder.m"; sourceTree = "<group>"; };
 		17B5CF6B980E90B68FE636A5 /* NSDateComponentsSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDateComponentsSpec.m; sourceTree = "<group>"; };
 		17B5CFB415C700A600E9C17E /* NSDate+AZDateBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+AZDateBuilder.h"; sourceTree = "<group>"; };
@@ -111,6 +112,7 @@
 				73054BFF176078FC0078DD8B /* Frameworks */,
 				73054BFE176078FC0078DD8B /* Products */,
 				E8A570743A32461FB91C3F0A /* Pods-Tests.xcconfig */,
+				17B5CE4B7A20303478EA50CC /* readme.md */,
 			);
 			sourceTree = "<group>";
 		};
